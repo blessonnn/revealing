@@ -25,9 +25,6 @@ function App() {
           Scroll-Driven<br />
           Dual-Layer Text Mask
         </h1>
-        <p className="hero-description">
-          Experience ultra-smooth, hardware-accelerated typography masks that dynamically paint your screen on scroll. Powered by GSAP ScrollTrigger.
-        </p>
         <a href="#showcase" className="scroll-indicator">
           <span>Scroll to reveal</span>
           <div className="scroll-mouse">

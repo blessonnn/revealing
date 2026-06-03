@@ -17,7 +17,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
   background-color: var(--bg-dark);
@@ -135,8 +136,8 @@ html, body {
 .hero-badge {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 6px 16px;
-  border-radius: 20px;
+  padding: 6px 14px;
+  border-radius: 30px;
   font-size: 0.85rem;
   font-weight: 500;
   color: var(--text-secondary-dark);
@@ -197,9 +198,20 @@ html, body {
 }
 
 @keyframes scrollAnim {
-  0% { transform: translateY(0); opacity: 1; }
-  50% { transform: translateY(6px); opacity: 0.3; }
-  100% { transform: translateY(0); opacity: 1; }
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(6px);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* Showcase Section - transitioning to light background */
