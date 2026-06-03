@@ -89,21 +89,25 @@ body {
 }
 
 .cta-button {
-  background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-pink) 100%);
-  color: #fff;
+  background: #ffffff;
+  /* Solid white background */
+  color: #000000;
+  /* Solid black text */
   border: none;
   padding: 10px 20px;
   border-radius: 30px;
   font-weight: 600;
   font-size: 0.9rem;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(127, 0, 255, 0.3);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  transition: all 0.1s ease;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(127, 0, 255, 0.45);
+  background: #f5f5f7;
+  /* Slight off-white hover state */
+  box-shadow: 0 6px 16px rgba(229, 227, 227, 0.2);
 }
 
 /* Hero Section */
@@ -279,12 +283,15 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 12px;
-  background: linear-gradient(135deg, rgba(127, 0, 255, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);
+  background: #ffffff;
+  /* Solid white background */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent-pink);
+  color: #000000;
+  /* Solid black icon color */
   margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .feature-card h3 {
