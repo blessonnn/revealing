@@ -295,16 +295,31 @@ body {
 }
 
 .feature-icon-wrapper svg {
-  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); /* Bouncy spring transition */
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  /* Bouncy spring transition */
 }
 
 /* Lightning Icon Wiggle animation */
 @keyframes boltWiggle {
-  0% { transform: rotate(0deg) scale(1); }
-  25% { transform: rotate(-15deg) scale(1.2); }
-  50% { transform: rotate(15deg) scale(1.2); }
-  75% { transform: rotate(-10deg) scale(1.2); }
-  100% { transform: rotate(0deg) scale(1.15); }
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  25% {
+    transform: rotate(-15deg) scale(1.2);
+  }
+
+  50% {
+    transform: rotate(15deg) scale(1.2);
+  }
+
+  75% {
+    transform: rotate(-10deg) scale(1.2);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1.15);
+  }
 }
 
 .features-grid .feature-card:nth-child(1):hover .feature-icon-wrapper svg {
